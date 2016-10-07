@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-sample-project",
+  "version": "1.0.0",
+  "description": "A sample nodejs app which best practices",
+  "main": "app.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js **/*.js",
+    "test": "./node_modules/.bin/mocha --recursive ./test "
+  },
+  "author": "Jose Nidhin",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "bunyan": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-filenames": "^1.1.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.1.0",
+    "sinon": "^1.17.6"
+  }
+}
